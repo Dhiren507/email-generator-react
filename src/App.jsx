@@ -144,7 +144,7 @@ function App() {
                 label="Tone (Optional)"
                 onChange={(e) => setTone(e.target.value)}
               >
-                <MenuItem value="">Default</MenuItem>
+                <MenuItem value="">Default(Professional)</MenuItem>
                 <MenuItem value="friendly">Friendly</MenuItem>
                 <MenuItem value="casual">Casual</MenuItem>
                 <MenuItem value="formal">Formal</MenuItem>
