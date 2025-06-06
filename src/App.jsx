@@ -145,7 +145,6 @@ function App() {
                 onChange={(e) => setTone(e.target.value)}
               >
                 <MenuItem value="">Default</MenuItem>
-                <MenuItem value="professional">Professional</MenuItem>
                 <MenuItem value="friendly">Friendly</MenuItem>
                 <MenuItem value="casual">Casual</MenuItem>
                 <MenuItem value="formal">Formal</MenuItem>
