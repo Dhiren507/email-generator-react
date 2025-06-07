@@ -141,10 +141,10 @@ function App() {
               <InputLabel id="tone-select-label">Tone (Optional)</InputLabel>
               <Select
                 value={tone || ''}
-                label="Tone (Optional)"
+                label="Tone"
                 onChange={(e) => setTone(e.target.value)}
               >
-                <MenuItem value="">Default(Professional)</MenuItem>
+                <MenuItem value="professional">Professional</MenuItem>
                 <MenuItem value="friendly">Friendly</MenuItem>
                 <MenuItem value="casual">Casual</MenuItem>
                 <MenuItem value="formal">Formal</MenuItem>
