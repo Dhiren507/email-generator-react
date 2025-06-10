@@ -138,7 +138,7 @@ function App() {
             </Typography>
             
             <FormControl fullWidth sx={{ mb: 3 }}>
-              <InputLabel id="tone-select-label">Tone (Optional)</InputLabel>
+              <InputLabel id="tone-select-label">Tone</InputLabel>
               <Select
                 value={tone || ''}
                 label="Tone"
